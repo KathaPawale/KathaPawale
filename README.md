@@ -1,5 +1,7 @@
 <img src="assets/header.svg" alt="Katha Pawale — AI Full-Stack Developer" width="100%" />
 
+<img src="assets/ticker.svg" alt="Skills ticker" width="100%" />
+
 <p align="center">
   <a href="https://www.linkedin.com/in/katha-pawale-3954302a7"><img src="https://img.shields.io/badge/LinkedIn-katha--pawale-7c3aed?style=flat-square&logo=linkedin&logoColor=white&labelColor=1a1033" /></a>
   <a href="mailto:kathapawale321@gmail.com"><img src="https://img.shields.io/badge/Email-kathapawale321%40gmail.com-7c3aed?style=flat-square&logo=gmail&logoColor=white&labelColor=1a1033" /></a>
@@ -14,7 +16,7 @@
 
 <br/>
 
-## ⚡ At a glance
+<img src="assets/sec-glance.svg" alt="At a glance" width="100%" />
 
 <table>
 <tr>
@@ -53,7 +55,7 @@
 
 <br/>
 
-## 🗺 My journey
+<img src="assets/sec-journey.svg" alt="My journey" width="100%" />
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'primaryColor':'#7c3aed','primaryTextColor':'#ffffff','primaryBorderColor':'#a78bfa','lineColor':'#a78bfa','textColor':'#c4b5fd','fontFamily':'Segoe UI, Helvetica, Arial, sans-serif','cScale0':'#4c1d95','cScale1':'#6d28d9','cScale2':'#7c3aed','cScale3':'#8b5cf6','cScale4':'#a78bfa','cScale5':'#3b82f6','cScale6':'#60a5fa','cScaleLabel0':'#ffffff','cScaleLabel1':'#ffffff','cScaleLabel2':'#ffffff','cScaleLabel3':'#ffffff','cScaleLabel4':'#1a1033','cScaleLabel5':'#ffffff','cScaleLabel6':'#1a1033'}}}%%
@@ -72,7 +74,7 @@ timeline
 
 <br/>
 
-## 💼 Experience
+<img src="assets/sec-experience.svg" alt="Experience" width="100%" />
 
 <table>
 <tr>
@@ -95,7 +97,7 @@ timeline
 
 <br/>
 
-## 🚀 Projects
+<img src="assets/sec-projects.svg" alt="Projects" width="100%" />
 
 <table>
 <tr>
@@ -140,7 +142,7 @@ Single-file tool that calculates GST across multiple tax slabs with instant resu
 
 <br/>
 
-## 🧰 Toolbox
+<img src="assets/sec-toolbox.svg" alt="Toolbox" width="100%" />
 
 | | |
 |---|---|
@@ -152,7 +154,7 @@ Single-file tool that calculates GST across multiple tax slabs with instant resu
 
 <br/>
 
-## 🧭 How I build an automation
+<img src="assets/sec-flow.svg" alt="How I build an automation" width="100%" />
 
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'primaryColor':'#1e1538','primaryTextColor':'#e9e3ff','primaryBorderColor':'#7c3aed','lineColor':'#a78bfa','secondaryColor':'#2a1f4d','tertiaryColor':'#0b0614','fontFamily':'Segoe UI, Helvetica, Arial, sans-serif'}}}%%
@@ -174,7 +176,7 @@ Routine work passes through on its own. Anything unusual waits for a human click
 
 <br/>
 
-## 🎓 Education, awards & leadership
+<img src="assets/sec-education.svg" alt="Education, awards and leadership" width="100%" />
 
 <table>
 <tr>
@@ -205,7 +207,7 @@ Routine work passes through on its own. Anything unusual waits for a human click
 
 <br/>
 
-## 📈 Activity
+<img src="assets/sec-activity.svg" alt="Activity" width="100%" />
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=KathaPawale&theme=midnight-purple&hide_border=true&background=0b0614&ring=7c3aed&fire=a78bfa&currStreakLabel=a78bfa&sideLabels=c4b5fd&dates=8b5cf6" height="160" alt="streak" />
@@ -218,6 +220,4 @@ Routine work passes through on its own. Anything unusual waits for a human click
 
 <br/>
 
-<p align="center">
-  <sub>Built end to end · measured before claimed · <a href="mailto:kathapawale321@gmail.com">say hello</a></sub>
-</p>
+<img src="assets/footer.svg" alt="Let's build something useful — kathapawale321@gmail.com" width="100%" />
