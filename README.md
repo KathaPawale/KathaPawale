@@ -156,21 +156,7 @@ Single-file tool that calculates GST across multiple tax slabs with instant resu
 
 <img src="assets/sec-flow.svg" alt="How I build an automation" width="100%" />
 
-```mermaid
-%%{init: {'theme':'base','themeVariables':{'primaryColor':'#1e1538','primaryTextColor':'#e9e3ff','primaryBorderColor':'#7c3aed','lineColor':'#a78bfa','secondaryColor':'#2a1f4d','tertiaryColor':'#0b0614','fontFamily':'Segoe UI, Helvetica, Arial, sans-serif'}}}%%
-flowchart LR
-    T(["⚡ Trigger"]) --> R["Rules and validation"]
-    R --> AI["🤖 LLM reads and decides"]
-    AI -- "routine" --> A["✅ Action"]
-    AI -- "unusual, customer-facing or financial" --> H{{"🙋 Human approval"}}
-    H -- "approved" --> A
-    H -- "rejected" --> X["↩ Back to queue"]
-    A --> L[("📜 Log and measure")]
-    X --> L
-    style T fill:#7c3aed,stroke:#a78bfa,color:#fff
-    style H fill:#3b82f6,stroke:#60a5fa,color:#fff
-    style A fill:#4c1d95,stroke:#a78bfa,color:#fff
-```
+<img src="assets/flow.svg" alt="Pipeline: trigger, rules, LLM decides with a confidence score, routine work goes straight to action, anything unusual waits for human approval, everything is logged and measured" width="100%" />
 
 Routine work passes through on its own. Anything unusual waits for a human click. Everything is logged, and results get claimed only once they have been measured.
 
