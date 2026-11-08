@@ -159,13 +159,13 @@ Single-file tool that calculates GST across multiple tax slabs with instant resu
 ```mermaid
 %%{init: {'theme':'base','themeVariables':{'primaryColor':'#1e1538','primaryTextColor':'#e9e3ff','primaryBorderColor':'#7c3aed','lineColor':'#a78bfa','secondaryColor':'#2a1f4d','tertiaryColor':'#0b0614','fontFamily':'Segoe UI, Helvetica, Arial, sans-serif'}}}%%
 flowchart LR
-    T([⚡ Trigger]) --> R[Rules & validation]
-    R --> AI[🤖 LLM reads & decides<br/><sub>confidence score on every answer</sub>]
-    AI -->|routine| A[✅ Action]
-    AI -->|unusual, customer-facing<br/>or financial| H{{🙋 Human approval}}
-    H -->|approved| A
-    H -->|rejected| X[↩ Back to queue]
-    A --> L[(📜 Log & measure)]
+    T(["⚡ Trigger"]) --> R["Rules and validation"]
+    R --> AI["🤖 LLM reads and decides"]
+    AI -- "routine" --> A["✅ Action"]
+    AI -- "unusual, customer-facing or financial" --> H{{"🙋 Human approval"}}
+    H -- "approved" --> A
+    H -- "rejected" --> X["↩ Back to queue"]
+    A --> L[("📜 Log and measure")]
     X --> L
     style T fill:#7c3aed,stroke:#a78bfa,color:#fff
     style H fill:#3b82f6,stroke:#60a5fa,color:#fff
@@ -184,22 +184,18 @@ Routine work passes through on its own. Anything unusual waits for a human click
 
 **🎓 Education**
 
-| | |
-|---|---|
-| **B.Tech, Computer Engineering** | Birla Vishvakarma Mahavidyalaya (BVM) Engineering College, Anand · 2023 – 2026 |
-| **Diploma, Information Technology** | Parul University, Vadodara · 2020 – 2023 |
+- **B.Tech, Computer Engineering** · 2023 – 2026<br/>Birla Vishvakarma Mahavidyalaya (BVM) Engineering College, Anand, Gujarat
+- **Diploma, Information Technology** · 2020 – 2023<br/>Parul University, Vadodara, Gujarat
 
 </td>
 <td width="50%" valign="top">
 
 **🏆 Awards & leadership**
 
-| | |
-|---|---|
-| 🥉 **Vadodara Hackathon 2.0** | 2nd Runner-up |
-| 🥉 **Tech Expo** | 2nd Runner-up |
-| 👩‍💻 **CSI Team Head**, BVM | Oct 2023 – Present · leading the Computer Society of India team in tech initiatives, workshops and events |
-| 🚀 **SSIP 2.0 Team Member** | Sep 2024 – Present · Student Startup and Innovation Policy initiative |
+- 🥉 **Vadodara Hackathon 2.0** · 2nd Runner-up
+- 🥉 **Tech Expo** · 2nd Runner-up
+- 👩‍💻 **CSI Team Head**, BVM Engineering College · Oct 2023 – Present<br/>Leading the Computer Society of India team in tech initiatives, workshops and events
+- 🚀 **SSIP 2.0 Team Member** · Sep 2024 – Present<br/>Student Startup and Innovation Policy initiative
 
 </td>
 </tr>
