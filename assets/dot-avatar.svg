@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Dot, Katha's robot avatar">
+<defs><linearGradient id="a-g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7fa4ff"/><stop offset=".5" stop-color="#3b6bff"/><stop offset="1" stop-color="#2a55e5"/></linearGradient>
+<linearGradient id="a-b" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5b8cff"/><stop offset="1" stop-color="#2f5be8"/></linearGradient>
+<filter id="a-glow" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="1.1" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<radialGradient id="abg" cx="35%" cy="30%" r="80%"><stop offset="0" stop-color="#312e81"/><stop offset=".55" stop-color="#1a1033"/><stop offset="1" stop-color="#070b1f"/></radialGradient>
+<linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#60a5fa"/><stop offset=".5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#3b82f6"/></linearGradient>
+<filter id="softglow"><feGaussianBlur stdDeviation="18" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#60a5fa" stroke-opacity=".12"/></pattern>
+<clipPath id="circ"><circle cx="256" cy="256" r="248"/></clipPath></defs>
+<style>
+.zb-shadow{fill:#000;opacity:.18;transform-origin:32px 58.5px;animation:zb-shadow 3.2s ease-in-out infinite}
+.zb-fig{transform-origin:32px 32px;animation:zb-bob 3.2s ease-in-out infinite}
+@keyframes zb-bob{0%,100%{transform:translateY(0)}50%{transform:translateY(-1.6px)}}
+@keyframes zb-shadow{0%,100%{transform:scaleX(1);opacity:.18}50%{transform:scaleX(.86);opacity:.1}}
+.zb-eyes{transform-origin:32px 22.5px;animation:zb-blink 4.6s ease-in-out infinite}
+@keyframes zb-blink{0%,93%,100%{transform:scaleY(1)}96%{transform:scaleY(.12)}}
+.zb-ant{transform-origin:32px 3.8px;animation:zb-pulse 2.2s ease-in-out infinite}
+.zb-light{transform-origin:32px 43.5px;animation:zb-pulse 2.2s ease-in-out .5s infinite}
+@keyframes zb-pulse{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.55;transform:scale(.8)}}
+.zb-arm-l{transform-origin:21px 40.6px;transform:rotate(8deg)}
+.zb-arm-r{transform-origin:43px 40.6px;transform:rotate(-8deg)}
+.zb-finger{opacity:0}
+.zbot-idle .zb-arm-l{animation:zb-arm-l 3.2s ease-in-out infinite}
+.zbot-idle .zb-arm-r{animation:zb-arm-r 3.2s ease-in-out infinite}
+@keyframes zb-arm-l{0%,100%{transform:rotate(8deg)}50%{transform:rotate(16deg)}}
+@keyframes zb-arm-r{0%,100%{transform:rotate(-8deg)}50%{transform:rotate(-16deg)}}
+.zbot-wave .zb-arm-r{animation:zb-wave 1.4s ease-in-out infinite}
+@keyframes zb-wave{0%,100%{transform:rotate(-62deg)}50%{transform:rotate(-100deg)}}
+.zb-ring{fill:none;stroke:#3b6bff;stroke-width:1.4;opacity:0;transform-box:fill-box;transform-origin:center}
+.zbot-listening .zb-ring{animation:zb-ring 1.6s ease-out infinite}
+.zbot-listening .zb-ring-r{animation-delay:.3s;stroke:#6fe3ff}
+@keyframes zb-ring{0%{transform:scale(.5);opacity:.8}100%{transform:scale(1.5);opacity:0}}
+.zb-orbit{transform-origin:32px 21px;animation:zb-spin 2.4s linear infinite}
+.zb-orbit-2{animation-duration:3.4s;animation-direction:reverse}
+.zbot-thinking .zb-ant{animation-duration:.9s}
+.zbot-thinking .zb-face{animation:zb-look 2.4s ease-in-out infinite}
+@keyframes zb-look{0%,100%{transform:translate(0,0)}30%{transform:translate(1.6px,-.8px)}60%{transform:translate(-1.6px,-.8px)}}
+@keyframes zb-spin{to{transform:rotate(360deg)}}
+.zbot-building .zb-arm-r{transform:rotate(-40deg);animation:none}
+.zb-blk{transform-box:fill-box;transform-origin:center;animation:zb-pop 2.4s cubic-bezier(.22,1,.36,1) infinite}
+.zb-blk-2{animation-delay:.3s}.zb-blk-3{animation-delay:.6s}
+@keyframes zb-pop{0%{transform:translate(-10px,10px) scale(.2);opacity:0}25%,78%{transform:none;opacity:1}100%{transform:translateY(-4px);opacity:0}}
+.zb-badge{transform-box:fill-box;transform-origin:center;animation:zb-in .45s cubic-bezier(.22,1,.36,1) .6s both}
+.zbot-done .zb-arm-l{transform:rotate(38deg);animation:none}
+.zbot-done .zb-arm-r{transform:rotate(-38deg);animation:none}
+.zbot-done .zb-fig{animation:zb-bob 3.2s ease-in-out infinite, zb-hop .6s cubic-bezier(.22,1,.36,1) .4s 1}
+@keyframes zb-in{from{transform:scale(0);opacity:0}}
+@keyframes zb-hop{0%{transform:translateY(0)}40%{transform:translateY(-5px)}100%{transform:translateY(0)}}
+.zbot-pointing .zb-arm-r{animation:zb-point 1.6s ease-in-out infinite}
+.zbot-pointing .zb-finger{opacity:1}
+@keyframes zb-point{0%,100%{transform:rotate(-22deg) translate(2px,0)}50%{transform:rotate(-22deg) translate(5px,0)}}
+.zb-zzz path{animation:zb-z 2.4s ease-in-out infinite;opacity:0}
+.zb-zzz .z2{animation-delay:.8s}
+@keyframes zb-z{0%{opacity:0;transform:translate(0,4px)}30%,70%{opacity:1}100%{opacity:0;transform:translate(3px,-6px)}}
+.zbot-sleeping .zb-eyes{animation:none}
+.zbot-sleeping .zb-fig{animation-duration:5s}
+.zbot-sleeping .zb-ant,.zbot-sleeping .zb-light{animation:none;opacity:.35}
+.zbot-sleeping .zb-arm-l,.zbot-sleeping .zb-arm-r{animation:none}
+.zbot-sleeping .zb-head{transform-origin:32px 30px;transform:rotate(6deg)}
+</style>
+<g clip-path="url(#circ)">
+<rect width="512" height="512" fill="url(#abg)"/><rect width="512" height="512" fill="url(#grid)"/>
+<circle cx="400" cy="120" r="120" fill="#7c3aed" opacity=".28" filter="url(#softglow)"/>
+<circle cx="110" cy="420" r="110" fill="#3b82f6" opacity=".26" filter="url(#softglow)"/>
+<g fill="#c4b5fd"><circle cx="120" cy="110" r="3"/><circle cx="420" cy="380" r="2.5"/><circle cx="380" cy="440" r="2"/><circle cx="90" cy="300" r="2"/></g>
+<g class="zbot zbot-idle" transform="translate(66,70) scale(5.9375)">
+<ellipse class="zb-shadow" cx="32" cy="58.5" rx="12" ry="2.4"/>
+<g class="zb-fig">
+<g class="zb-head-tilt"><line x1="32" y1="9.5" x2="32" y2="5" stroke="#5b8cff" stroke-width="2" stroke-linecap="round"/><circle class="zb-ant" cx="32" cy="3.8" r="2.6" fill="#6fe3ff" filter="url(#a-glow)"/></g>
+<rect class="zb-arm zb-arm-l" x="11" y="38" width="11" height="5.2" rx="2.6" fill="url(#a-b)"/>
+<g class="zb-arm zb-arm-r"><rect x="42" y="38" width="11" height="5.2" rx="2.6" fill="url(#a-b)"/><rect class="zb-finger" x="52" y="39.1" width="5" height="3" rx="1.5" fill="#5b8cff"/></g>
+
+<rect x="23" y="50.5" width="7.5" height="5" rx="2.5" fill="#2446c4"/><rect x="33.5" y="50.5" width="7.5" height="5" rx="2.5" fill="#2446c4"/>
+<rect x="21" y="36" width="22" height="16" rx="8" fill="url(#a-g)"/>
+<circle class="zb-light" cx="32" cy="43.5" r="2.6" fill="#6fe3ff" filter="url(#a-glow)"/>
+<g class="zb-head"><rect x="10" y="18" width="5" height="9" rx="2.5" fill="#2446c4"/><rect x="49" y="18" width="5" height="9" rx="2.5" fill="#2446c4"/>
+<rect x="14" y="9" width="36" height="26.5" rx="11" fill="url(#a-g)"/><rect x="19" y="14" width="26" height="16.5" rx="7" fill="#0b1020"/>
+<g class="zb-face"><g class="zb-eyes" fill="none" stroke="#6fe3ff" stroke-width="2.4" stroke-linecap="round" filter="url(#a-glow)"><path d="M23.5 22.5 q3.5 -4.5 7 0"/><path d="M33.5 22.5 q3.5 -4.5 7 0"/></g>
+<path d="M29.2 26.2 q2.8 2.2 5.6 0" fill="none" stroke="#6fe3ff" stroke-width="1.5" stroke-linecap="round" opacity=".9"/></g></g>
+</g></g>
+</g>
+<circle cx="256" cy="256" r="248" fill="none" stroke="url(#ring)" stroke-width="10"/>
+</svg>
