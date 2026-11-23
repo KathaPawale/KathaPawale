@@ -101,6 +101,20 @@ timeline
 
 <table>
 <tr>
+<td colspan="3" valign="top">
+
+### ⏱️ ZIUAI Tracker &nbsp;·&nbsp; <sub>NEW · in use at ZIU AI</sub>
+**Privacy-first team activity tracker with a founder dashboard**
+
+Live team status, day reports with CSV / PDF export, alerts and reminders, plus a Mac desktop app and a browser extension. Employees can see everything that is collected in their own portal. Runs on Docker with PostgreSQL and is shared through a Cloudflare Tunnel.
+
+`React` `TypeScript` `Tailwind` `Flask` `PostgreSQL` `Redis` `Docker` `Cloudflare`
+
+🔒 Private repo (internal company tool)
+
+</td>
+</tr>
+<tr>
 <td width="33%" valign="top">
 
 ### 📋 TaskFlow
